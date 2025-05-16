@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 10vw;
+    margin-top: 10px;
+    z-index: 99;
+}
+nav a{
+    text-decoration: none;
+    color: #ffff;
+
+}
+.logo img{
+    width: 100px;
+    z-index: 99;
+}
+.cntr-nav{
+    display: flex;
+    gap: 3vw;
+    
+}
+#menu-icon {
+    font-size: 150%;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    display: none; /* Hidden by default for desktop */
+}
+.one{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+        background-color: rgba(156,48,0,254);
+
+}
+#jar{
+    position: absolute;
+    width: 35%;
+    top: 100px;
+    z-index: 2;
+    transform: rotate(-25deg);
+}
+#spoon{
+    position: absolute;
+    width: 40%;
+    z-index: 1;
+    top: 40px;
+    left: 390px;
+}
+#comb{
+    position: absolute;
+    right: 400px;
+    width: 15%;
+    top: 58%;
+}
+#bee1{
+    position: absolute;
+    width: 4%;
+    top: 25%;
+    right: 57%;
+    z-index: 3;
+}
+#bee2{
+    position: absolute;
+    width: 4%;
+    top: 20%;
+    right: 55%;
+    z-index: 3;
+}
+#bee3{
+    position: absolute;
+    width: 4%;
+    top: 30%;
+    right: 55%;
+    z-index: 3;
+}
+#bee4{
+    position: absolute;
+    width: 4%;
+    top: 25%;
+    right: 53%;
+    z-index: 3;
+}
+#bee5{
+    position: absolute;
+    width: 4%;
+    top: 30%;
+    right: 58%;
+    z-index: 3;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.one h1{
+    font-size: 10vw;
+    font-family: 'PT sans', sans-serif;
+    font-weight: 700;
+    color: #ffff;
+    animation: fadeIn 1.5s ease-in-out;
+
+}
+
+
+
+.two{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: rgba(156,48,0,254);
+}
+.left-t{
+    width: 50%;
+    height: 100%;
+}
+.right-t{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6vh;
+    width: 50%;
+    height: 100%;
+}
+.right-t h1{
+    color: #ffff;
+    font-size: 5vw;
+    font-family: 'PT sans', sans-serif;
+    font-weight: 600;
+}
+.right-t p{
+    font-size: 1vw;
+    color: #ffff;
+    width: 70%;
+}
+#stand{
+    position: absolute;
+    width: 40%;
+    top: 120%;
+    left: 5%;
+}
+.three{
+    width: 100%;
+    /* height: 100vh; */
+    background-color:#58320c;
+    padding-top: 20px;
+    /* padding: 30px; */
+
+}
+.collection-title {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+.collection-subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+    .product-card {
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        max-width: 100%; /* Keeps cards compact */
+    }
+
+
+
+    .product-img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .card-body {
+        padding: 16px;
+    }
+
+    .card-title {
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-bottom: 6px;
+        color: #333;
+    }
+
+    .card-text {
+        color: #555;
+        margin-bottom: 10px;
+        font-size: 0.9rem;
+    }
+
+    .price {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #e8a838;
+        margin-bottom: 8px;
+    }
+
+    .buy-btn {
+        background-color: #e8a838;
+        color: white;
+        border-radius: 50px;
+        padding: 6px 16px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+
+    .buy-btn:hover {
+        background-color: #d89b2e;
+    }
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        color: #5c3d1e;
+    }
+
+    .container-fluid {
+        max-width: 1400px;
+    }
+
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+    }
+    .card {
+        background-color: #fff;
+        border-radius: 20px;
+    }
+    h2 {
+        color: #333;
+    }
+    p {
+        font-size: 1.1rem;
+    }
+    .bi-check2 {
+        font-size: 1.2rem;
+    }
+footer {
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 15px 0px;
+    margin-top: 30px;
+}
+
+.contact-section {
+
+    color: #3e3e3e;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #5A3E1B;
+  }
+  
+  .contact-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+    color: #6a6a6a;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .contact-info i {
+    color: #C59B5F;
+    font-size: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .social-link {
+    font-size: 24px;
+    color: #5A3E1B;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-link:hover {
+    transform: scale(1.1);
+    color: #C59B5F;
+  }
+  
+  .map-container {
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 10px rgba(90, 62, 27, 0.2);
+  }
+
+
+
+
+
+
+@media (max-width: 768px){
+.cntr-nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 10px;
+        right: 0;
+        background-color: transparent;
+        /* padding: 10px; */
+        gap: 15px;
+        z-index: 1;
+        width: 200px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .cntr-nav.active {
+        display: flex;
+    }
+
+    #menu-icon {
+        display: block; /* Show on mobile */
+    }
+
+    .fa-bars, .fa-xmark {
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        font-size: 2rem;
+    }
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 77vh;
+}
+
+#jar{
+    position: absolute;
+    width: 75%;
+    top: 220px;
+}
+#spoon{
+    position: absolute;
+    width: 90%;
+    top: 160px;
+    left: 30px;
+}
+#comb{
+    position: absolute;
+    left: 211px;
+    width: 29%;
+    top: 55%;
+}
+#bee1{
+    position: absolute;
+    width: 10%;
+    top: 39%;
+    right: 72%;
+}
+#bee2{
+    position: absolute;
+    width: 10%;
+    top: 42%;
+    right: 65%;
+}
+#bee3{
+    position: absolute;
+    width: 10%;
+    top: 39%;
+    right: 65%;
+}
+#bee4{
+    position: absolute;
+    width: 10%;
+    top: 36%;
+    right: 68%;
+}
+#bee5{
+    position: absolute;
+    width: 10%;
+    top: 39%;
+    right: 58%;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.one h1{
+    text-align: center;
+    line-height: 1.2;
+    white-space: pre-line;
+    font-size: 18vw;
+}
+.two{
+    display: flex;
+    height: 75vh;
+}
+.right-t h1{
+    position: absolute;
+    left: 10%;
+    top: 108%;
+    font-size: 10vw;
+}
+.right-t p{
+    position: absolute;
+    left: 10%;
+    top: 115%;
+    font-size: 3vw;
+    width: 80%;
+}
+#stand{
+    width: 80%;
+    top: 136%;
+    left: 16%;
+}
+
+.collection-title {
+    padding: 30px;
+    padding-bottom: 70px;
+    padding-top: 10px;
+}
+.collection-subtitle {
+    position: absolute;
+        font-size: 1rem;
+    padding: 30px;
+    top: 191%;
+}
+
+}
