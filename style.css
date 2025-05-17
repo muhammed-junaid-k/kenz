@@ -21,16 +21,14 @@ nav{
     padding: 0vw 10vw;
     margin-top: 10px;
     z-index: 99;
+    background-color: tra;
 }
 nav a{
     text-decoration: none;
     color: #ffff;
 
 }
-.logo img{
-    width: 100px;
-    z-index: 99;
-}
+
 .cntr-nav{
     display: flex;
     gap: 3vw;
@@ -43,6 +41,10 @@ nav a{
     position: absolute;
     right: 20px;
     display: none; /* Hidden by default for desktop */
+}
+.logo img{
+    width: 100px;
+    z-index: 99;
 }
 .one{
     display: flex;
@@ -155,8 +157,8 @@ nav a{
 }
 #stand{
     position: absolute;
-    width: 40%;
-    top: 120%;
+    width: 50%;
+    top: 110%;
     left: 5%;
 }
 .three{
@@ -396,7 +398,7 @@ html,body{
     position: absolute;
     left: 211px;
     width: 29%;
-    top: 55%;
+    top: 50%;
 }
 #bee1{
     position: absolute;
@@ -458,7 +460,7 @@ html,body{
 #stand{
     width: 80%;
     top: 136%;
-    left: 16%;
+    left: 11%;
 }
 
 .collection-title {
