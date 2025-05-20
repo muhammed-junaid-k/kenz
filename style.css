@@ -45,6 +45,7 @@ nav a{
 .logo img{
     width: 100px;
     z-index: 99;
+    position: sticky;
 }
 .one{
     display: flex;
