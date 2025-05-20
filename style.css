@@ -55,60 +55,9 @@ nav a{
         background-color: rgba(156,48,0,254);
 
 }
-#jar{
-    position: absolute;
-    width: 35%;
-    top: 100px;
-    z-index: 2;
-    transform: rotate(-25deg);
-}
-#spoon{
+#img2{
     position: absolute;
     width: 40%;
-    z-index: 1;
-    top: 40px;
-    left: 390px;
-}
-#comb{
-    position: absolute;
-    right: 400px;
-    width: 15%;
-    top: 58%;
-}
-#bee1{
-    position: absolute;
-    width: 4%;
-    top: 25%;
-    right: 57%;
-    z-index: 3;
-}
-#bee2{
-    position: absolute;
-    width: 4%;
-    top: 20%;
-    right: 55%;
-    z-index: 3;
-}
-#bee3{
-    position: absolute;
-    width: 4%;
-    top: 30%;
-    right: 55%;
-    z-index: 3;
-}
-#bee4{
-    position: absolute;
-    width: 4%;
-    top: 25%;
-    right: 53%;
-    z-index: 3;
-}
-#bee5{
-    position: absolute;
-    width: 4%;
-    top: 30%;
-    right: 58%;
-    z-index: 3;
 }
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -157,7 +106,7 @@ nav a{
 }
 #stand{
     position: absolute;
-    width: 50%;
+    width: 40%;
     top: 110%;
     left: 5%;
 }
@@ -217,7 +166,8 @@ nav a{
     .card-text {
         color: #555;
         margin-bottom: 10px;
-        font-size: 0.9rem;
+        font-size: 0.6rem;
+        text-align: start;
     }
 
     .price {
@@ -228,17 +178,23 @@ nav a{
     }
 
     .buy-btn {
-        background-color: #e8a838;
+        background-color: #b36446;
         color: white;
+        border: none;
         border-radius: 50px;
         padding: 6px 16px;
         font-weight: bold;
-        transition: background-color 0.3s;
+    }
+    .view-details-btn{
+        background-color: #b36446;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 6px 16px;
+        font-weight: bold;
     }
 
-    .buy-btn:hover {
-        background-color: #d89b2e;
-    }
+
 
     h2 {
         font-family: 'Playfair Display', serif;
@@ -382,63 +338,21 @@ html,body{
 #main{
     height: 77vh;
 }
-
-#jar{
-    position: absolute;
+#img2{
     width: 75%;
-    top: 220px;
-}
-#spoon{
-    position: absolute;
-    width: 90%;
-    top: 160px;
-    left: 30px;
-}
-#comb{
-    position: absolute;
-    left: 211px;
-    width: 29%;
-    top: 50%;
-}
-#bee1{
-    position: absolute;
-    width: 10%;
-    top: 39%;
-    right: 72%;
-}
-#bee2{
-    position: absolute;
-    width: 10%;
-    top: 42%;
-    right: 65%;
-}
-#bee3{
-    position: absolute;
-    width: 10%;
-    top: 39%;
-    right: 65%;
-}
-#bee4{
-    position: absolute;
-    width: 10%;
-    top: 36%;
-    right: 68%;
-}
-#bee5{
-    position: absolute;
-    width: 10%;
-    top: 39%;
-    right: 58%;
+    top: 30%;
 }
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
 .one h1{
+    position: absolute;
     text-align: center;
     line-height: 1.2;
     white-space: pre-line;
-    font-size: 18vw;
+    font-size: 19vw;
+    top: 33%;
 }
 .two{
     display: flex;
@@ -458,21 +372,28 @@ html,body{
     width: 80%;
 }
 #stand{
-    width: 80%;
-    top: 136%;
-    left: 11%;
+    width: 67%;
+    top: 139%;
+    left: 16%;
 }
 
 .collection-title {
-    padding: 30px;
-    padding-bottom: 70px;
+    /* padding: 30px; */
+    /* padding-bottom: 70px; */
     padding-top: 10px;
 }
 .collection-subtitle {
     position: absolute;
-        font-size: 1rem;
-    padding: 30px;
-    top: 191%;
+    font-size: 1rem;
+    /* padding: 30px; */
+    /* top: 191%; */
 }
+    .product-img {
+        width: 100%;
+        height: 309px;
+        object-fit: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
 
 }
